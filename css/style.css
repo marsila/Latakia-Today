@@ -1,0 +1,219 @@
+
+/* 
+    Created on : Feb 16, 2017, 11:10:23 AM
+    Author     : Rasha A
+*/
+
+@font-face{
+    font-family: Amiri;
+    src:url(../fonts/Amiri-Regular.ttf)
+}
+@font-face{
+    font-family: Dkufi;
+    src :url(../fonts/DroidKufi-Regular.ttf)
+}
+
+html{
+    direction:rtl;
+
+}
+body{
+    background-color: #265a88;
+    direction: rtl;
+    font-family: Traditional Arabic,Amiri,serif;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration:  none;
+}
+.top-bar{
+    position: relative;
+    padding: 9px 0;
+    z-index: 12;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ul.login-top-bar >li{
+    list-style:none;
+    display: inline;
+    position: relative;
+    
+    
+}
+li.top-bar-devider{
+    top: -1px;
+    padding: 0;
+    font-size: 8px;
+    position: relative;
+    margin: 0 9px 0 5px;
+    font-family: Tahoma;
+    border-right: solid 1px #bbb;
+}
+ul.login-top-bar > li >a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.top-bar-icons li{
+    list-style: none;
+    display: inline;
+    position: relative;
+    
+}
+.top-bar-icons li a{
+    color: #fff;
+    font-size: 28px;
+    padding: 7px;
+}
+
+.top-search-bar{
+    position: relative;
+    padding: 7px;
+    
+}
+.top-search-bar i{
+    color: #fff;
+    font-size: 20px;
+}
+
+.navtext {font-family: Dkufi,serif,Traditional Arabic;
+          font-size: 13pt;
+          font-weight: bold;
+          text-align:right; 
+
+
+}
+.nav > li {
+    float: right !important
+}
+
+.dropdown-menu > li
+{
+    text-align:  right !important
+}
+
+.carousel{
+    position: relative;
+}
+
+.left-right-padding{
+    padding:0px 15px;
+}
+.left-padding{
+    padding: 0px 0px 15px 0px;
+}
+
+.border-red-style{
+    border: 1px solid #870303;
+}
+.relative-position{
+    position: relative;
+}
+
+
+.my-list-style li:before {    
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    color: #870303;
+    padding-left: 0.7em;
+}
+.my-list-style li{
+    list-style-type: none;
+    font-weight: bold;
+    color: #666; 
+}
+.top-nav-list li{
+    list-style-type: none;
+    font-weight: bold;
+    color: #666; 
+}
+
+.my-list-style li:hover, a:visited {
+    cursor: pointer;
+    background-color: #f2f2f2;
+    color: #000; 
+}
+.my-list-style li a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration:  none;
+    color: #666;
+}
+.overflow-hidden{
+    overflow: hidden;
+    
+}
+.margin-top{
+    margin-top: 1.5em;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px; 
+}
+.margin-bottom-40{
+    margin-bottom: 40px;
+}
+
+.baner-style{
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+/*middle-block
+------------------------------------*/
+.middle-block .tab-heading {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+	border-bottom: 3px solid #870303;
+}
+
+.middle-block .tab-heading h2 {
+	margin: 0;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+        color: #870303;
+}
+
+/*Nav Tabs*/
+.middle-block .nav-tabs {
+	top: 3px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+        
+}
+
+.middle-block .nav-tabs a {
+	color: #555;
+	font-size: 18px;
+        font-weight: bold;
+	padding: 6px 15px;
+}
+
+.middle-block .nav-tabs > .active > a,
+.middle-block .nav-tabs > .active > a:hover,
+.middle-block .nav-tabs > .active > a:focus {
+	color: #870303;
+        border: none;
+	background: inherit;
+}
+
+.middle-block .nav-tabs > li > a {
+	border: none;
+}
+.middle-block .nav-tabs > li > a:hover {
+	background: inherit;
+}
+
+.middle-block .tab-content {
+	padding: 20px 0 10px;
+}

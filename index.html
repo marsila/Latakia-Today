@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Latakia Today</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/blocks.css" type="text/css">
+        <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    </head>
+    <body>
+        <div class="bodyWrapper">
+            <div class="container">
+                <div class='top-nav-logo'>
+                    <div class="row">
+                        <div class="col-md-8 pull-right">
+                            <img src="img/home/logo.png" class='img-responsive'>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-12 top-bar">
+                                    <ul class="login-top-bar">
+                                        <li><a href="#" class="">تسجيل دخول</a></li>
+                                        <li class="top-bar-devider"></li>
+                                        <li> <a href="#" class="">عنا</a></li>
+                                        <li class="top-bar-devider"></li>
+                                        <li><a href="#" class="">اشترك معنا</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="top-bar-icons">
+                                        <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 top-search-bar">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control input-sm" placeholder="بحث"/>
+                                        <span class="input-group-btn">
+                                            <a class="btn btn-sm" type="button" href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <nav class="navbar navbar-inverse navbar-static-top " >
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"  aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <span class="navbar-brand">Latakia Today</span>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse navtext navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li class="active" ><a href="#"><span> الصفحة الرئيسية</span></a></li>
+                            <li><a href="#">اجتماعيات</a></li>
+                            <li><a href="#">محليات</a></li>
+                            <li><a href="#">اخر الاخبار</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">متفرقات <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">متفرقات 1 </a></li>
+                                    <li><a href="#"> متفرقات2 </a></li>
+                                    <li><a href="#"> متفرقات3 </a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">متفرقات 4 </a></li>
+                                </ul>
+                            </li>
+                            <li ><a href="#">اتصل بنا</a></li>
+
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+            <!-- End of navigation bar-->
+            <div class="container">
+                <!--start of first block -->
+                <!--carousel -->
+                <div class="row margin-bottom-40">
+                    <div class="col-md-6 col-xs-12 pull-right">
+                        <div id="lat-carousel" class=" carousel slide carousel-l1">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="img/home/c1.jpg">
+                                    <div class="carousel-caption">
+                                        <p>1هنا نضع العنوان المهم</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/home/c2.jpg">
+                                    <div class="carousel-caption">
+                                        <p>2هنا نضع العنوان المهم</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/home/c3.jpg">
+                                    <div class="carousel-caption">
+                                        <p>3هنا نضع العنوان المهم</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-arrow">
+                                <a class="right carousel-control" href="#lat-carousel" data-slide="prev">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                                <a class="left carousel-control" href="#lat-carousel" data-slide="next">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carousel End-->
+
+                    <div class="col-md-3 pull-right ">
+
+                        <div class="top-date-block">
+                            <p id="theDate"></p>
+                            <p>بحث : -----</p>
+                        </div>
+                        <div class="important-block-l1">
+                            <div class="headline">
+                                <h3>أخبار جديدة</h3>
+                            </div>
+                            <ul class="my-list-style">
+                                <li><a href="#">العنوان المهم  يوضع هنا1</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا2</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا3</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا4</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="important-block-l2">
+                            <div class="headline">
+                                <h3>الجديد اليوم</h3>
+                            </div>
+                            <ul class="my-list-style">
+                                <li><a href="#">العنوان المهم  يوضع هنا1</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا2</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا3</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا4</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا5</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا6</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا7</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا8</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا9</a></li>
+                                <li><a href="#">العنوان المهم  يوضع هنا10</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-top margin-bottom-20">
+                    <div class="col-md-3 col-xs-6 pull-right">
+                        <div class="thumbnail thumbnail-style thumbnail-transition">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="img/home/th1.jpg">
+                                </div>
+                            </div>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">العنوان هنا</a></h3>
+                                <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 pull-right">
+                        <div class="thumbnail thumbnail-style thumbnail-transition">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="img/home/th2.jpg">
+                                </div>
+                            </div>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">العنوان هنا</a></h3>
+                                <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 pull-right">
+                        <div class="thumbnail thumbnail-style thumbnail-transition">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="img/home/th3.jpg">
+                                </div>
+                            </div>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">العنوان هنا</a></h3>
+                                <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 pull-right">
+                        <div class="thumbnail thumbnail-style thumbnail-transition">
+                            <div class="thumbnail-img">
+                                <div class="overflow-hidden">
+                                    <img class="img-responsive" src="img/home/th4.jpg">
+                                </div>
+                            </div>
+                            <div class="caption">
+                                <h3><a class="hover-effect" href="#">العنوان هنا</a></h3>
+                                <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 margin-bottom-40">
+                        <img class="img-responsive baner-style" src="img/home/banner.jpg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 pull-right">
+                        <div class="middle-block margin-bottom-40">
+                            <div class="tab-heading">
+                                <h2>إقرأ أيضا</h2>
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="active">
+                                        <a href="#tab-news-a1" role="tab" data-toggle="tab">الكل</a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab-news-a2" role="tab" data-toggle="tab">أخبار الطرقات</a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab-news-a3" role="tab" data-toggle="tab">مقاهي ومطاعم</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="tab-news-a1">
+                                    <div class="row pull-right">
+                                        <!-- vertical news start  -->
+                                        <div class="col-sm-5">
+                                            <div class="news-vertical-thumb margin-bottom-20">
+                                                <div class="news-vertical-hover">
+                                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                                </div>
+                                                <div class="news-vertical-desc">
+                                                    <a href="#">
+                                                        <h3>العنوان هنا1</h3>
+                                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                    </a>
+                                                    <ul class="news-vertical-info">
+                                                        <li>15/4/2016</li>
+                                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="news-vertical-thumb margin-bottom-20">
+                                                <div class="news-vertical-hover">
+                                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                                </div>
+                                                <div class="news-vertical-desc">
+                                                    <a href="#">
+                                                        <h3>العنوان هنا2</h3>
+                                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                    </a>
+                                                    <ul class="news-vertical-info">
+                                                        <li>15/4/2016</li>
+                                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="news-vertical-thumb margin-bottom-20">
+                                                <div class="news-vertical-hover">
+                                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                                </div>
+                                                <div class="news-vertical-desc">
+                                                    <a href="#">
+                                                        <h3>العنوان هنا3</h3>
+                                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                    </a>
+                                                    <ul class="news-vertical-info">
+                                                        <li>15/4/2016</li>
+                                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="news-vertical-thumb margin-bottom-20">
+                                                <div class="news-vertical-hover">
+                                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                                </div>
+                                                <div class="news-vertical-desc">
+                                                    <a href="#">
+                                                        <h3>العنوان هنا4</h3>
+                                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                    </a>
+                                                    <ul class="news-vertical-info">
+                                                        <li>15/4/2016</li>
+                                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--vertical news end -->
+                                        <!-- left news grid start-->
+                                        <div class="col-sm-7">
+                                            <div class="left-news-grid margin-bottom-20">
+                                                <img class="img-responsive" src="img/home/th6.jpg">
+                                                <h3><a href="#">العنوان هنا </a></h3>
+                                                <ul class="left-news-grid-info">
+                                                    <li>12,3,2016</li>
+                                                    <li><a href="#"><i class="fa fa-comments"></i></a></li>
+                                                </ul>
+                                                <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                <a class="read-more" href="#">المزيد..</a>
+                                            </div>
+                                        </div>
+                                        <!--left nwes grid end-->
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab-news-a2">
+                                    <div class="row pull-right">
+                                        <!-- vertical news start  -->
+                                        <div class="col-sm-5">
+                                            <div class="news-vertical-thumb margin-bottom-20">
+                                                <div class="news-vertical-hover">
+                                                    <a href="#"><img src="img/home/th5.jpg"></a>
+                                                </div>
+                                                <div class="news-vertical-desc">
+                                                    <a href="#">
+                                                        <h3>العنوان هنا1</h3>
+                                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                    </a>
+                                                    <ul class="news-vertical-info">
+                                                        <li>15/4/2016</li>
+                                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="news-vertical-thumb margin-bottom-20">
+                                                <div class="news-vertical-hover">
+                                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                                </div>
+                                                <div class="news-vertical-desc">
+                                                    <a href="#">
+                                                        <h3>العنوان هنا2</h3>
+                                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                    </a>
+                                                    <ul class="news-vertical-info">
+                                                        <li>15/4/2016</li>
+                                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="news-vertical-thumb margin-bottom-20">
+                                                <div class="news-vertical-hover">
+                                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                                </div>
+                                                <div class="news-vertical-desc">
+                                                    <a href="#">
+                                                        <h3>العنوان هنا3</h3>
+                                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                    </a>
+                                                    <ul class="news-vertical-info">
+                                                        <li>15/4/2016</li>
+                                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="news-vertical-thumb margin-bottom-20">
+                                                <div class="news-vertical-hover">
+                                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                                </div>
+                                                <div class="news-vertical-desc">
+                                                    <a href="#">
+                                                        <h3>العنوان هنا4</h3>
+                                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                    </a>
+                                                    <ul class="news-vertical-info">
+                                                        <li>15/4/2016</li>
+                                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--vertical news end -->
+                                        <!-- left news grid start-->
+                                        <div class="col-sm-7">
+                                            <div class="left-news-grid margin-bottom-20">
+                                                <img class="img-responsive" src="img/home/th5.jpg">
+                                                <h3>العنوان هنا </h3>
+                                                <ul class="left-news-grid-info">
+                                                    <li>12,3,2016</li>
+                                                    <li><a href="#"><i class="fa fa-comments"></i></a></li>
+                                                </ul>
+                                                <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                <a class="read-more" href="#">المزيد..</a>
+                                            </div>
+                                        </div>
+                                        <!--left nwes grid end-->
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab-news-a3">
+                                    <div class="row pull-right">
+                                        <!-- vertical news start  -->
+                                        <div class="col-sm-5">
+                                            <div class="news-vertical-thumb margin-bottom-20">
+                                                <div class="news-vertical-hover">
+                                                    <a href="#"><img src="img/home/th4.jpg"></a>
+                                                </div>
+                                                <div class="news-vertical-desc">
+                                                    <a href="#">
+                                                        <h3>العنوان هنا1</h3>
+                                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                    </a>
+                                                    <ul class="news-vertical-info">
+                                                        <li>15/4/2016</li>
+                                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="news-vertical-thumb margin-bottom-20">
+                                                <div class="news-vertical-hover">
+                                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                                </div>
+                                                <div class="news-vertical-desc">
+                                                    <a href="#">
+                                                        <h3>العنوان هنا2</h3>
+                                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                    </a>
+                                                    <ul class="news-vertical-info">
+                                                        <li>15/4/2016</li>
+                                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="news-vertical-thumb margin-bottom-20">
+                                                <div class="news-vertical-hover">
+                                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                                </div>
+                                                <div class="news-vertical-desc">
+                                                    <a href="#">
+                                                        <h3>العنوان هنا3</h3>
+                                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                    </a>
+                                                    <ul class="news-vertical-info">
+                                                        <li>15/4/2016</li>
+                                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="news-vertical-thumb margin-bottom-20">
+                                                <div class="news-vertical-hover">
+                                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                                </div>
+                                                <div class="news-vertical-desc">
+                                                    <a href="#">
+                                                        <h3>العنوان هنا4</h3>
+                                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                    </a>
+                                                    <ul class="news-vertical-info">
+                                                        <li>15/4/2016</li>
+                                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--vertical news end -->
+                                        <!-- left news grid start-->
+                                        <div class="col-sm-7">
+                                            <div class="left-news-grid margin-bottom-20">
+                                                <img class="img-responsive" src="img/home/th4.jpg">
+                                                <h3>العنوان هنا </h3>
+                                                <ul class="left-news-grid-info">
+                                                    <li>12,3,2016</li>
+                                                    <li><a href="#"><i class="fa fa-comments"></i></a></li>
+                                                </ul>
+                                                <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                                <a class="read-more" href="#">المزيد..</a>
+                                            </div>
+                                        </div>
+                                        <!--left nwes grid end-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-bottom-40">
+                    <div class="col-md-7 pull-right">
+                        <div class="row margin-bottom-40">
+                            <div class="col-xs-6  pull-right ">
+                                <div class="important-block-l3">
+                                    <div class="headline">
+                                        <h3>أخبار العقارات</h3>
+                                    </div>
+                                    <ul class="my-list-style">
+                                        <li><a href="#">العنوان المهم  يوضع هنا1</a></li>
+                                        <li><a href="#">العنوان المهم  يوضع هنا2</a></li>
+                                        <li><a href="#">العنوان المهم  يوضع هنا3</a></li>
+                                        <li><a href="#">العنوان المهم  يوضع هنا4</a></li>
+                                        <li><a href="#">العنوان المهم  يوضع هنا5</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="important-block-l4">
+                                    <div class="headline">
+                                        <h3>أخبار من الجامعة</h3>
+                                    </div>
+                                    <ul class="my-list-style">
+                                        <li><a href="#">العنوان المهم  يوضع هنا1</a></li>
+                                        <li><a href="#">العنوان المهم  يوضع هنا2</a></li>
+                                        <li><a href="#">العنوان المهم  يوضع هنا3</a></li>
+                                        <li><a href="#">العنوان المهم  يوضع هنا4</a></li>
+                                        <li><a href="#">العنوان المهم  يوضع هنا5</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row margin-bottom-40">
+                            <div class="col-md-12">
+                                <img class="img-responsive" src="img/home/banner.jpg">
+                            </div>
+                        </div>
+                        <div class="row margin-bottom-40">
+                            <div class="col-xs-6 pull-right">
+                                <div class="important-block-l6">
+                                    <div class="headline">
+                                        <h3>أقرأ أيضا عن ...</h3>
+                                    </div>
+                                    <p>هنا نضع جزء من نص الخبر الذي نريد هلة الا ينجاوز ال 5 سطور .....لللل للل ل لللللل لللللل لللللل للللل
+                                        يببيييي يييييييي يييييييييي يييييييييييييي
+                                    </p>
+                                    <a class="read-more" href="#">المزيد..</a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="important-block-l6">
+                                    <div class="headline">
+                                        <h3>أقرأ أيضا عن ...</h3>
+                                    </div>
+                                    <p>هنا نضع جزء من نص الخبر الذي نريد هلة الا ينجاوز ال 5 سطور .....لللل للل ل لللللل لللللل لللللل للللل
+                                        يببيييي يييييييي يييييييييي يييييييييييييي
+                                    </p>
+                                    <a class="read-more" href="#">المزيد..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 pull-right">
+                        <div class="important-block-l5">
+                            <div class="headline margin-bottom-40">
+                                <h3>أخبار الريف</h3>
+                            </div>
+                            <div class="news-vertical-thumb margin-bottom-20">
+                                <div class="news-vertical-hover">
+                                    <a href="#"><img src="img/home/th4.jpg"></a>
+                                </div>
+                                <div class="news-vertical-desc">
+                                    <a href="#">
+                                        <h3>العنوان هنا1</h3>
+                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                    </a>
+                                    <ul class="news-vertical-info">
+                                        <li>15/4/2016</li>
+                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="news-vertical-thumb margin-bottom-20">
+                                <div class="news-vertical-hover">
+                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                </div>
+                                <div class="news-vertical-desc">
+                                    <a href="#">
+                                        <h3>العنوان هنا2</h3>
+                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                    </a>
+                                    <ul class="news-vertical-info">
+                                        <li>15/4/2016</li>
+                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="news-vertical-thumb margin-bottom-20">
+                                <div class="news-vertical-hover">
+                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                </div>
+                                <div class="news-vertical-desc">
+                                    <a href="#">
+                                        <h3>العنوان هنا3</h3>
+                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                    </a>
+                                    <ul class="news-vertical-info">
+                                        <li>15/4/2016</li>
+                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="news-vertical-thumb margin-bottom-20">
+                                <div class="news-vertical-hover">
+                                    <a href="#"><img src="img/home/lth7.jpg"></a>
+                                </div>
+                                <div class="news-vertical-desc">
+                                    <a href="#">
+                                        <h3>العنوان هنا4</h3>
+                                        <p>هنا نضع المحتوبات التي نريد ان تظهر ...وهي لمحة مختصرة عن الموجود في المقال</p>
+                                    </a>
+                                    <ul class="news-vertical-info">
+                                        <li>15/4/2016</li>
+                                        <li><a href="#"><i class="fa fa-comments"></i>7</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-block border-red-style">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div class="footer">
+                                <div class="row">
+                                    <div class="col-sm-3 pull-right">
+                                        <h3>Latakia Today</h3>
+                                        <p>معلومات عن أهداف الموقع ------ بسيبسيبيبسبسي سيبيبيسب سيبيب بسبيس سيبسب فثقففق قفليبل بببي قثقث فغغفاغ فتافغاف تفتفغت تفغاف</p>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <h3>مواقع شريكة</h3>
+                                        <ul>
+                                            <li>www.kdks;;l </li>
+                                            <li>www.kl;k </li>
+                                            <li>www.jklj; </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <h3>للتواصل معنا</h3>
+                                        <ul>
+                                            <li>العنوان</li>
+                                            <li>البريد الإلكتروني</li>
+                                            <li>رقم الهاتف</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                              <div class="row">
+                                <div class="col-md-6">2017 © all right Reserved </div>
+                                <div class="col-md-6">
+                                  <ul class="">
+                                    <li><a href="#" > <i class="fa fa-facebook"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/latakiaScript.js"></script>
+    </body>
+</html>
